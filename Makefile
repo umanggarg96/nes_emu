@@ -1,0 +1,8 @@
+DESIGN_FILE= src/cpu6502.sv
+
+VERILATOR_FLAGS=-Wall -cc
+VERILATOR_INC=-I 
+
+compile:
+	verilator $(VERILATOR_FLAGS) $(DESIGN_FILE)
+

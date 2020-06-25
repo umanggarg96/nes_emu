@@ -1,2 +1,2 @@
 # nes_emu
-NES Emulator
+NES Emulator in SystemVerilog
